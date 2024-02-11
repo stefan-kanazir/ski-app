@@ -17,13 +17,11 @@ const NAV_ITEMS = [
 ];
 
 export default component$(() => (
-  <nav class="bg-slate-200/50 px-20 py-4 rounded-full">
-    <ul class="flex gap-10 ">
-      {NAV_ITEMS.map((navItem) => (
-        <li key={navItem.label}>
-          <Link href={navItem.href}>{navItem.label}</Link>
-        </li>
-      ))}
-    </ul>
+  <nav class="bg-blue-300/50 px-20 py-4 rounded-full flex gap-10">
+    {NAV_ITEMS.map((navItem) => (
+      <Link key={navItem.label} href={navItem.href}>
+        {navItem.label}
+      </Link>
+    ))}
   </nav>
 ));

@@ -10,9 +10,6 @@ export default component$(() => (
 
     <Menu />
 
-    {/* TODO: Create reusable Button component */}
-    <button class="bg-blue-500 px-4 py-2 rounded-md font-bold text-white mr-6">
-      Get Started
-    </button>
+    <button class="btn-primary mr-6">Get Started</button>
   </header>
 ));

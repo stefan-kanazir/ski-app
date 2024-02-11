@@ -17,9 +17,7 @@ export default component$(() => {
   return (
     <>
       <Header />
-      <main class="min-h-[10000px]">
-        <Slot />;
-      </main>
+      <Slot />;
     </>
   );
 });
