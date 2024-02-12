@@ -4,11 +4,11 @@ import { Link } from "@builder.io/qwik-city";
 const NAV_ITEMS = [
   {
     label: "Mountains",
-    href: "mountains ",
+    href: "mountains",
   },
   {
-    label: "About",
-    href: "about ",
+    label: "Ski Instructors",
+    href: "instructors",
   },
   {
     label: "Blog",
