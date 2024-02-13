@@ -1,7 +1,7 @@
 import { component$ } from "@builder.io/qwik";
 
 export default component$(() => (
-  <section class="flex justify-center items-center gap-20 bg-blue-200 py-40 mt-24">
+  <section class="flex justify-center items-center gap-20 bg-blue-200 py-40">
     <div class="w-1/2 max-w-[560px] flex flex-col gap-3">
       <h3 class="font-bold text-3xl">
         <span class="text-gradient">Save up to 30%</span> on ski equipment.
