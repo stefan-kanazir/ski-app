@@ -17,7 +17,7 @@ export default component$(() => {
   return (
     <>
       <Header />
-      <Slot />;
+      <Slot />
     </>
   );
 });
