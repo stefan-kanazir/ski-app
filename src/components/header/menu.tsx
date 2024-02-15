@@ -17,7 +17,7 @@ const NAV_ITEMS = [
 ];
 
 export default component$(() => (
-  <nav class="bg-blue-300/50 px-20 py-4 rounded-full flex gap-10">
+  <nav class="bg-blue-300/50 px-20 py-4 rounded-full hidden md:flex gap-10">
     {NAV_ITEMS.map((navItem) => (
       <Link key={navItem.label} href={navItem.href}>
         {navItem.label}
