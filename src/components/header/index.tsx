@@ -10,6 +10,6 @@ export default component$(() => (
 
     <Menu />
 
-    <button class="btn-primary mr-6">Get Started</button>
+    <button class="hidden md:block btn-primary mr-6">Get Started</button>
   </header>
 ));

@@ -23,7 +23,7 @@ export default component$(() => {
   return (
     <>
       <Hero />
-      <section class="max-w-[1200px] mx-auto grid grid-cols-3 gap-4 my-24">
+      <section class="container mx-auto grid grid-cols-3 gap-4 my-24">
         {INSTRUCTORS.map((instructor) => (
           <Instructor key={instructor.name} {...instructor} />
         ))}
