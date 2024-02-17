@@ -2,9 +2,8 @@ import { component$ } from "@builder.io/qwik";
 
 import Image from "~/assets/images/ski-group.jpg?jsx";
 
-// TODO: Create reusable component
 export default component$(() => (
-  <section class="container flex flex-col items-center mt-24">
+  <section class="container flex flex-col items-center mt-16 md:mt-24">
     <h1 class="text-4xl md:text-6xl font-bold text-center">
       Find the best <span class="text-gradient"> ski instructors</span>
     </h1>
