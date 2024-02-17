@@ -2,7 +2,7 @@ import { component$ } from "@builder.io/qwik";
 
 interface InstructorProps {
   name: string;
-  imageUrl: string;
+  image_url: string;
 }
 
 export default component$((props: InstructorProps) => (
@@ -12,7 +12,7 @@ export default component$((props: InstructorProps) => (
       height={900}
       width={1600}
       alt={props.name}
-      src={props.imageUrl}
+      src={props.image_url}
     />
     <span class="text-lg">{props.name}</span>
   </article>
