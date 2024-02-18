@@ -10,13 +10,13 @@ export default component$(() => {
   return (
     <>
       <Hero />
-      <section class="container mx-auto grid grid-cols-3 gap-5 my-24">
+      <section class="container grid grid-cols-3 gap-5 my-24">
         {INSTRUCTORS.map((instructor) => (
           <Instructor key={instructor.name} {...instructor} />
         ))}
       </section>
       <Promo />
-      <section class="container mx-auto grid grid-cols-3 gap-5 my-24">
+      <section class="container grid grid-cols-1 md:grid-cols-3 gap-5 my-24">
         <article>
           <h3 class="text-3xl font-bold mb-4">Mountains</h3>
           <p class="text-slate-700">

@@ -36,7 +36,7 @@ export default component$(() => {
         onClick$={() => {
           isMenuOpened.value = !isMenuOpened.value;
         }}
-        class="w-6 mr-6 md:hidden"
+        class="w-6 md:hidden"
       >
         {isMenuOpened.value ? <CloseIcon /> : <MenuIcon />}
       </button>
