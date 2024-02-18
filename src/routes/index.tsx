@@ -4,39 +4,7 @@ import Hero from "~/components/hero";
 import Instructor from "~/components/instructor";
 import Mountain from "~/components/mountain";
 import Promo from "~/components/promo";
-
-const INSTRUCTORS = [
-  {
-    name: "John Doe",
-    image_url: "https://images.unsplash.com/photo-1565992441121-4367c2967103",
-  },
-  {
-    name: "John Doe",
-    image_url: "https://images.unsplash.com/photo-1565992441121-4367c2967103",
-  },
-  {
-    name: "John Doe",
-    image_url: "https://images.unsplash.com/photo-1565992441121-4367c2967103",
-  },
-];
-
-const MOUNTAINS = [
-  {
-    name: "Lorem Ipsum",
-    slug: "lorem-ipsum",
-    image_url: "https://images.unsplash.com/25/peak.jpg",
-  },
-  {
-    name: "Lorem Ipsum",
-    slug: "lorem-ipsum",
-    image_url: "https://images.unsplash.com/25/peak.jpg",
-  },
-  {
-    name: "Lorem Ipsum",
-    slug: "lorem-ipsum",
-    image_url: "https://images.unsplash.com/25/peak.jpg",
-  },
-];
+import { INSTRUCTORS, MOUNTAINS } from "~/data";
 
 export default component$(() => {
   return (

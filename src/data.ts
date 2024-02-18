@@ -1,5 +1,6 @@
-// This is temp file for placeholder data
+import type { Mountain } from "./types";
 
+// This is temp file for placeholder data
 export const INSTRUCTORS = [
   {
     name: "John Doe",
@@ -15,20 +16,30 @@ export const INSTRUCTORS = [
   },
 ];
 
-export const MOUNTAINS = [
+export const MOUNTAINS: Omit<Mountain, "description">[] = [
   {
-    name: "Lorem Ipsum",
-    slug: "lorem-ipsum",
+    name: "Jahorina",
+    slug: "jahorina",
     image_url: "https://images.unsplash.com/25/peak.jpg",
   },
   {
-    name: "Lorem Ipsum",
-    slug: "lorem-ipsum",
+    name: "Kopaonik",
+    slug: "kopaonik",
     image_url: "https://images.unsplash.com/25/peak.jpg",
   },
   {
-    name: "Lorem Ipsum",
-    slug: "lorem-ipsum",
+    name: "Stara Planina",
+    slug: "stara-planina",
+    image_url: "https://images.unsplash.com/25/peak.jpg",
+  },
+  {
+    name: "Zlatar",
+    slug: "zlatar",
+    image_url: "https://images.unsplash.com/25/peak.jpg",
+  },
+  {
+    name: "Zlatibor",
+    slug: "zlatibor",
     image_url: "https://images.unsplash.com/25/peak.jpg",
   },
 ];

@@ -1,11 +1,8 @@
 import { component$ } from "@builder.io/qwik";
 import { Link } from "@builder.io/qwik-city";
+import type { Mountain } from "~/types";
 
-interface MountainProps {
-  name: string;
-  slug: string;
-  image_url: string;
-}
+type MountainProps = Omit<Mountain, "description">;
 
 export default component$((props: MountainProps) => (
   <Link href={props.slug}>
